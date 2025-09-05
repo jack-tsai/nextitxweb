@@ -3,34 +3,34 @@
 export default function Products() {
   const products = [
     {
-      name: '企業ERP系統',
-      category: '企業管理',
-      description: '全方位企業資源規劃系統，整合財務、人事、庫存、銷售等模組',
-      features: ['多模組整合', '即時報表', '行動裝置支援', '雲端部署'],
+      name: '智能ERP系統',
+      category: '企業資源整合',
+      description: 'AI 驅動的企業資源規劃系統，整合財務、人事、庫存、銷售等模組，提供智能化管理',
+      features: ['AI 智能預測', '自動化流程', '即時數據分析', '行動裝置支援'],
       price: '客製報價',
       highlight: false
     },
     {
       name: 'AI 數據分析平台',
       category: '數據智能',
-      description: '運用機器學習技術，提供智能數據分析與預測功能',
-      features: ['自動化報表', '預測分析', '視覺化儀表板', 'API 整合'],
+      description: '運用機器學習技術，提供智能數據分析與預測功能，協助企業做出精準決策',
+      features: ['自動化報表', 'AI 預測分析', '視覺化儀表板', 'API 整合'],
       price: '月租方案',
       highlight: true
     },
     {
-      name: '電商購物平台',
-      category: '電子商務',
-      description: '完整的電商解決方案，包含前台購物網站與後台管理系統',
-      features: ['響應式設計', '金流串接', '庫存管理', 'SEO 優化'],
-      price: '專案報價',
+      name: '智能維運管理系統',
+      category: 'IT 維運',
+      description: '24/7 智能化 IT 維運管理，自動化監控、故障處理與效能優化',
+      features: ['智能監控', '自動故障排除', '效能分析', '預防性維護'],
+      price: '訂閱制',
       highlight: false
     },
     {
-      name: '雲端協作系統',
-      category: '辦公協作',
-      description: '企業內部協作平台，整合專案管理、文件共享、即時通訊',
-      features: ['即時協作', '檔案管理', '權限控制', '行動 App'],
+      name: '下一世代協作平台',
+      category: '企業協作',
+      description: 'AI 賦能的企業協作平台，整合專案管理、文件共享、智能助理功能',
+      features: ['AI 智能助理', '即時協作', '智能排程', '跨平台整合'],
       price: '按人數計費',
       highlight: false
     }
@@ -42,7 +42,8 @@ export default function Products() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">產品方案</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            專為不同行業需求打造的軟體產品，提供完整的解決方案與技術支援
+            AI 時代的智能化產品方案，結合傳統企業管理與人工智能技術，
+            為不同行業提供下一世代的資訊服務解決方案
           </p>
         </div>
 

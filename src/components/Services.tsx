@@ -9,10 +9,28 @@ export default function Services() {
       features: ['前端開發 (React, Vue, Angular)', '後端開發 (Node.js, Python, Java)', '資料庫設計與優化', '系統架構規劃']
     },
     {
+      icon: '🤖',
+      title: 'AI 智能整合',
+      description: '人工智能技術整合、機器學習應用、智能化系統升級',
+      features: ['AI 模型開發與部署', '自然語言處理應用', '電腦視覺解決方案', '智能決策系統']
+    },
+    {
       icon: '📊',
       title: '數據分析',
-      description: '大數據處理、商業智慧分析、機器學習應用',
-      features: ['數據視覺化', '預測分析模型', '商業智慧報表', '即時數據監控']
+      description: '大數據處理、商業智慧分析、AI 驅動的預測分析',
+      features: ['數據視覺化', 'AI 預測分析模型', '商業智慧報表', '即時數據監控']
+    },
+    {
+      icon: '⚙️',
+      title: 'IT 維運管理',
+      description: '智能化 IT 維運、系統監控、自動化運維管理',
+      features: ['智能監控系統', '自動化故障處理', '效能優化分析', '24/7 維運支援']
+    },
+    {
+      icon: '🏢',
+      title: '企業資源整合',
+      description: 'ERP 系統整合、企業流程優化、資源配置管理',
+      features: ['ERP 系統客製化', '企業流程自動化', '資源配置優化', '跨系統數據整合']
     },
     {
       icon: '🔧',
@@ -27,16 +45,10 @@ export default function Services() {
       features: ['AWS/Azure/GCP 部署', 'Docker 容器化', 'CI/CD 流程建置', '監控與維護']
     },
     {
-      icon: '🛡️',
-      title: '資訊安全',
-      description: '系統安全評估、資安防護、合規性檢查',
-      features: ['安全性測試', '資料加密', '存取控制', '合規性諮詢']
-    },
-    {
-      icon: '📈',
-      title: '數位轉型諮詢',
-      description: '企業數位化策略規劃、流程優化、技術導入',
-      features: ['數位化策略', '流程自動化', '技術選型建議', '變革管理']
+      icon: '🚀',
+      title: '下一世代轉型',
+      description: 'AI 時代的數位轉型諮詢、下一世代資訊服務架構設計',
+      features: ['AI 轉型策略規劃', '下一世代架構設計', '智能化流程重塑', '數位生態系統建構']
     }
   ]
 
@@ -46,7 +58,8 @@ export default function Services() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">服務項目</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            提供全方位的軟體開發與IT解決方案，從需求分析到系統上線，全程專業服務
+            AI 時代的全方位 IT 解決方案，從傳統軟體開發到智能化企業資源整合，
+            協助您的企業實現下一世代的資訊服務升級轉型
           </p>
         </div>
 

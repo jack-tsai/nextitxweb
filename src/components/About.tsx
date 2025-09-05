@@ -2,9 +2,9 @@
 
 export default function About() {
   const stats = [
-    { number: '50+', label: '專案經驗' },
-    { number: '5+', label: '服務年資' },
-    { number: '20+', label: '企業客戶' },
+    { number: '500+', label: '專案經驗' },
+    { number: '20+', label: '服務年資' },
+    { number: '100+', label: '企業客戶' },
     { number: '100%', label: '客戶滿意度' }
   ]
 
@@ -12,10 +12,12 @@ export default function About() {
     <section id="about" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">關於 NextIT</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-6">關於 NextITX</h2>
           <p className="text-xl text-gray-600 leading-relaxed">
-            NextIT 是一家專業的軟體開發公司，致力於為企業提供全方位的IT解決方案。
+            NextITX 是一家專業的軟體開發公司，致力於為企業提供全方位的IT解決方案。
             我們擁有豐富的軟體開發經驗，專精於數據分析、系統整合與創新技術應用。
+            面對 AI 時代的來臨，我們進一步升級為企業資源整合專家，
+            協助企業實現智能化的 IT 轉型與下一世代資訊服務。
           </p>
         </div>
 
@@ -23,22 +25,27 @@ export default function About() {
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">我們的使命</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              透過先進的軟體技術與深度的數據分析能力，協助企業數位轉型，
-              提升營運效率，創造更大的商業價值。我們不只是技術供應商，
-              更是您數位化路程上的戰略夥伴。
+              在 AI 驅動的數位新時代，協助企業實現全面的 IT 資源整合升級。
+              我們結合人工智能、雲端運算、大數據分析等前沿技術，
+              重新定義企業的 IT 維運管理和資源管理模式，
+              打造真正智能化的下一世代資訊服務生態系統。
             </p>
             <div className="space-y-4">
               <div className="flex items-center">
                 <div className="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
-                <span className="text-gray-700">專業的技術團隊</span>
+                <span className="text-gray-700">AI 驅動的智能化解決方案</span>
               </div>
               <div className="flex items-center">
                 <div className="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
-                <span className="text-gray-700">客製化解決方案</span>
+                <span className="text-gray-700">企業資源整合升級專家</span>
               </div>
               <div className="flex items-center">
                 <div className="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
-                <span className="text-gray-700">持續的技術支援</span>
+                <span className="text-gray-700">下一世代資訊服務架構</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
+                <span className="text-gray-700">24/7 智能維運管理</span>
               </div>
             </div>
           </div>
@@ -47,16 +54,20 @@ export default function About() {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">核心價值</h3>
             <div className="space-y-4">
               <div className="border-l-4 border-blue-600 pl-4">
-                <h4 className="font-semibold text-gray-900">創新</h4>
-                <p className="text-gray-600">持續採用最新技術，為客戶創造競爭優勢</p>
+                <h4 className="font-semibold text-gray-900">智能創新</h4>
+                <p className="text-gray-600">整合 AI 技術與傳統 IT，創造智能化競爭優勢</p>
               </div>
               <div className="border-l-4 border-blue-600 pl-4">
-                <h4 className="font-semibold text-gray-900">專業</h4>
-                <p className="text-gray-600">深耕技術領域，提供最專業的服務品質</p>
+                <h4 className="font-semibold text-gray-900">資源整合</h4>
+                <p className="text-gray-600">全面整合企業 IT 資源，實現最佳效能配置</p>
               </div>
               <div className="border-l-4 border-blue-600 pl-4">
-                <h4 className="font-semibold text-gray-900">合作</h4>
-                <p className="text-gray-600">與客戶建立長期夥伴關係，共同成長</p>
+                <h4 className="font-semibold text-gray-900">轉型夥伴</h4>
+                <p className="text-gray-600">陪伴企業走向 AI 時代，共創下一世代成功</p>
+              </div>
+              <div className="border-l-4 border-blue-600 pl-4">
+                <h4 className="font-semibold text-gray-900">持續進化</h4>
+                <p className="text-gray-600">不斷升級技術架構，保持領先市場地位</p>
               </div>
             </div>
           </div>

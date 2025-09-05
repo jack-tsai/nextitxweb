@@ -14,9 +14,9 @@ const notoSansTC = Noto_Sans_TC({
 })
 
 export const metadata: Metadata = {
-  title: 'NextIT - 軟體開發與數據分析專家',
-  description: '專業的軟體開發、數據分析及IT資訊整合服務，提供創新的技術解決方案',
-  keywords: '軟體開發,數據分析,IT整合,企業解決方案,雲端服務',
+  title: 'NextITX - AI 時代的企業資源整合專家',
+  description: '專業軟體開發公司，專精 AI 智能整合、IT 維運管理、企業資源整合，協助企業實現下一世代資訊服務升級轉型',
+  keywords: '軟體開發,AI智能整合,IT維運管理,企業資源整合,數據分析,下一世代轉型,人工智能',
 }
 
 export default function RootLayout({

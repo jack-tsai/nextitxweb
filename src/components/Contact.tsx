@@ -97,11 +97,11 @@ export default function Contact() {
               <ul className="space-y-3">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                  <span>5年以上專業經驗</span>
+                  <span>20年以上專業經驗</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                  <span>24小時技術支援</span>
+                  <span>AI 智能化解決方案</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-white rounded-full mr-3"></div>

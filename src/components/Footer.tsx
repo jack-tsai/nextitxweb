@@ -8,10 +8,10 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
-            <div className="text-2xl font-bold mb-4">NextIT</div>
+            <div className="text-2xl font-bold mb-4">NextITX</div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              專業的軟體開發公司，致力於提供創新的IT解決方案，
-              協助企業實現數位轉型。
+              AI 時代的企業資源整合專家，專業的軟體開發公司，
+              協助企業實現智能化轉型與下一世代資訊服務升級。
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition-colors">
@@ -36,21 +36,21 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-6">服務項目</h3>
             <ul className="space-y-3 text-gray-400">
               <li><a href="#" className="hover:text-white transition-colors">軟體開發</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">AI 智能整合</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">IT 維運管理</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">企業資源整合</a></li>
               <li><a href="#" className="hover:text-white transition-colors">數據分析</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">IT資訊整合</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">雲端服務</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">資訊安全</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">數位轉型諮詢</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">下一世代轉型</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold mb-6">產品方案</h3>
             <ul className="space-y-3 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">企業ERP系統</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">智能ERP系統</a></li>
               <li><a href="#" className="hover:text-white transition-colors">AI數據分析平台</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">電商購物平台</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">雲端協作系統</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">智能維運管理系統</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">下一世代協作平台</a></li>
             </ul>
           </div>
 
@@ -81,7 +81,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {currentYear} NextIT. All rights reserved. | 專業軟體開發與數據分析服務</p>
+          <p>&copy; {currentYear} NextITX. All rights reserved. | AI 時代的企業資源整合專家</p>
         </div>
       </div>
     </footer>

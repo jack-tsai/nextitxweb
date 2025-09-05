@@ -6,14 +6,15 @@ export default function Hero() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
-            NextIT
+            NextITX
           </h1>
           <h2 className="text-2xl md:text-4xl font-light mb-8 text-blue-100">
-            軟體開發與數據分析專家
+            AI 時代的企業資源整合專家
           </h2>
           <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto leading-relaxed text-blue-100">
-            我們專注於軟體開發、數據分析及IT資訊整合，透過創新技術為企業打造客製化解決方案，
-            提升營運效率與競爭力
+            在 AI 時代，您的 IT 需要更全面的轉型！我們專精於 IT 企業資源整合升級，
+            不論是 IT 維運管理或企業資源管理，都能協助您改造下一世代的資訊服務，
+            透過智能化技術實現真正的數位轉型
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
