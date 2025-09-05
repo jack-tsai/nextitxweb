@@ -1,62 +1,144 @@
-# Next.js Framework Starter
+# NextIT - 軟體開發與數據分析專家
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/next-starter-template)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/jack-tsai/nextitxweb)
 
-<!-- dash-content-start -->
+## 🏢 關於 NextIT
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It's deployed on Cloudflare Workers as a [static website](https://developers.cloudflare.com/workers/static-assets/).
+NextIT 是一家專業的軟體開發公司，致力於為企業提供全方位的IT解決方案。我們專精於軟體開發、數據分析、系統整合與創新技術應用，透過先進的技術協助企業數位轉型，提升營運效率與競爭力。
 
-This template uses [OpenNext](https://opennext.js.org/) via the [OpenNext Cloudflare adapter](https://opennext.js.org/cloudflare), which works by taking the Next.js build output and transforming it, so that it can run in Cloudflare Workers.
+## ✨ 網站特色
 
-<!-- dash-content-end -->
+- 🎨 **現代化設計** - 響應式設計，支援各種裝置尺寸
+- 🚀 **高效能架構** - 使用 Next.js 15 + Tailwind CSS 3.x
+- 📱 **完美體驗** - 平滑滾動導航與優雅動畫效果
+- 💼 **專業內容** - 完整的企業形象與服務介紹
+- 📧 **互動功能** - 功能完整的聯絡表單
 
-Outside of this repo, you can start a new project with this template using [C3](https://developers.cloudflare.com/pages/get-started/c3/) (the `create-cloudflare` CLI):
+## 🛠️ 核心服務
 
-```bash
-npm create cloudflare@latest -- --template=cloudflare/templates/next-starter-template
-```
+### 軟體開發
+- 前端開發 (React, Vue, Angular)
+- 後端開發 (Node.js, Python, Java)
+- 資料庫設計與優化
+- 系統架構規劃
 
-A live public deployment of this template is available at [https://next-starter-template.templates.workers.dev](https://next-starter-template.templates.workers.dev)
+### 數據分析
+- 數據視覺化
+- 預測分析模型
+- 商業智慧報表
+- 即時數據監控
 
-## Getting Started
+### IT 資訊整合
+- 第三方系統整合
+- API 設計與開發
+- 雲端架構部署
+- 系統自動化
 
-First, run:
+### 其他服務
+- 雲端服務 (AWS/Azure/GCP)
+- 資訊安全評估與防護
+- 數位轉型諮詢
+
+## 🚀 快速開始
+
+### 安裝依賴
 
 ```bash
 npm install
-# or
+# 或
 yarn install
-# or
+# 或
 pnpm install
-# or
-bun install
 ```
 
-Then run the development server (using the package manager of your choice):
+### 啟動開發伺服器
 
 ```bash
 npm run dev
+# 或
+yarn dev
+# 或
+pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+開啟瀏覽器訪問 [http://localhost:3000](http://localhost:3000) 查看網站。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 建置與部署
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+# 建置專案
+npm run build
 
-## Deploying To Production
+# 本地預覽
+npm run preview
 
-| Command                           | Action                                       |
-| :-------------------------------- | :------------------------------------------- |
-| `npm run build`                   | Build your production site                   |
-| `npm run preview`                 | Preview your build locally, before deploying |
-| `npm run build && npm run deploy` | Deploy your production site to Cloudflare    |
+# 部署到 Cloudflare Pages
+npm run deploy
+```
 
-## Learn More
+## 📁 專案結構
 
-To learn more about Next.js, take a look at the following resources:
+```
+nextitxweb/
+├── src/
+│   ├── app/                 # Next.js App Router
+│   │   ├── layout.tsx       # 根佈局
+│   │   └── page.tsx         # 首頁
+│   ├── components/          # React 組件
+│   │   ├── Header.tsx       # 導航欄
+│   │   ├── Hero.tsx         # 英雄區域
+│   │   ├── About.tsx        # 關於我們
+│   │   ├── Services.tsx     # 服務項目
+│   │   ├── Products.tsx     # 產品方案
+│   │   ├── Contact.tsx      # 聯絡我們
+│   │   └── Footer.tsx       # 頁腳
+│   └── styles/
+│       └── globals.css      # 全局樣式
+├── public/                  # 靜態資源
+├── tailwind.config.js       # Tailwind CSS 配置
+└── next.config.ts           # Next.js 配置
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 技術棧
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **前端框架**: [Next.js 15](https://nextjs.org/)
+- **樣式框架**: [Tailwind CSS 3.x](https://tailwindcss.com/)
+- **字體**: Google Fonts (Inter, Noto Sans TC)
+- **部署平台**: [Cloudflare Pages](https://pages.cloudflare.com/)
+- **語言**: TypeScript
+- **構建工具**: [OpenNext](https://opennext.js.org/)
+
+## 📱 響應式設計
+
+網站完全響應式設計，在以下裝置上均有優良體驗：
+- 📱 行動裝置 (320px+)
+- 📱 平板電腦 (768px+)
+- 💻 桌面電腦 (1024px+)
+- 🖥️ 大螢幕 (1440px+)
+
+## 🚀 部署指令
+
+| 指令                              | 說明                                    |
+| :-------------------------------- | :-------------------------------------- |
+| `npm run build`                   | 建置生產版本                            |
+| `npm run preview`                 | 本地預覽建置結果                        |
+| `npm run deploy`                  | 部署到 Cloudflare Pages                |
+| `npm run dev`                     | 啟動開發伺服器                          |
+| `npm run lint`                    | 執行 ESLint 檢查                        |
+
+## 🤝 聯絡我們
+
+- 📍 **地址**: 台北市信義區信義路五段7號
+- 📞 **電話**: +886-2-1234-5678
+- 📧 **Email**: info@nextit.com.tw
+- 🌐 **網站**: https://nextitxweb.pages.dev
+
+## 📄 授權
+
+此專案使用 MIT 授權 - 詳見 [LICENSE](LICENSE) 檔案
+
+---
+
+💼 **NextIT - 您的數位轉型夥伴**
+
+透過創新技術為企業打造客製化解決方案，提升營運效率與競爭力。
