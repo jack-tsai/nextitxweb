@@ -2,15 +2,16 @@
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600 text-white">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
-            NextITX
-          </h1>
-          <h2 className="text-2xl md:text-4xl font-light mb-8 text-blue-100">
-            AI 時代的企業資源整合專家
-          </h2>
+    <header role="banner">
+      <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600 text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+              NextITX
+            </h1>
+            <h2 className="text-2xl md:text-4xl font-light mb-8 text-blue-100">
+              AI 時代的企業資源整合專家
+            </h2>
           <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto leading-relaxed text-blue-100">
             在 AI 時代，您的 IT 需要更全面的轉型！我們專精於 IT 企業資源整合升級，
             不論是 IT 維運管理或企業資源管理，都能協助您改造下一世代的資訊服務，
@@ -39,5 +40,6 @@ export default function Hero() {
         </div>
       </div>
     </section>
+    </header>
   )
 }

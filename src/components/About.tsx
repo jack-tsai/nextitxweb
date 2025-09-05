@@ -9,10 +9,10 @@ export default function About() {
   ]
 
   return (
-    <section id="about" className="py-20 bg-gray-50">
+    <section id="about" className="py-20 bg-gray-50" aria-labelledby="about-heading">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">關於 NextITX</h2>
+          <h2 id="about-heading" className="text-4xl font-bold text-gray-900 mb-6">關於 NextITX</h2>
           <p className="text-xl text-gray-600 leading-relaxed">
             NextITX 是一家專業的軟體開發公司，致力於為企業提供全方位的IT解決方案。
             我們擁有豐富的軟體開發經驗，專精於數據分析、系統整合與創新技術應用。

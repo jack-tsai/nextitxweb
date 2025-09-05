@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# 允許搜尋引擎抓取所有內容
+Disallow: 
+
+# Sitemap 位置
+Sitemap: https://nextitx.pages.dev/sitemap.xml
+
+# 主要搜尋引擎
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# 防止爬取敏感目錄 (如果有的話)
+# Disallow: /admin/
+# Disallow: /private/
+
+# 爬取延遲 (秒)
+Crawl-delay: 1
+
+# 主要頁面
+# https://nextitx.pages.dev/
+# https://nextitx.pages.dev/about
+# https://nextitx.pages.dev/services
+# https://nextitx.pages.dev/products
+# https://nextitx.pages.dev/contact
