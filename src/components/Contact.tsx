@@ -50,7 +50,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">地址</h4>
-                    <p className="text-gray-600">台北市信義區信義路五段7號</p>
+                    <p className="text-gray-600">屏東市和平路164號</p>
                   </div>
                 </div>
 
@@ -62,7 +62,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">電話</h4>
-                    <p className="text-gray-600">+886-2-1234-5678</p>
+                    <p className="text-gray-600">+886-8-732-6789</p>
                   </div>
                 </div>
 
@@ -74,7 +74,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">電子郵件</h4>
-                    <p className="text-gray-600">info@nextit.com.tw</p>
+                    <p className="text-gray-600">info@nextitx.com.tw</p>
                   </div>
                 </div>
 
